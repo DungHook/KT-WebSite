@@ -4,7 +4,7 @@
   					}  					
  			h1
  					{ 					 
- 						text-shadow: 2px 2px 5px red, 2px 2px 5px black; 				
+ 						text-shadow: 2px 2px 5px red, 1px 1px 4px black; 				
  					}  									 			
  			h2 
  					{
@@ -13,38 +13,27 @@
  					}
  			h3
  					{
- 				 		text-shadow: 1px 1px 3px black;
- 				 	
+ 				 		text-shadow: 1px 1px 3px black; 				 	
 					}
 			h4
 					{
 						text-shadow: 1px 1px 3px black;
 						text-align:left
 					}
-	.nav a:link
-					{
-					color: black;
-					background-color: transparent;
-					text-decoration: none;
-					}
-
-			a:hover
-					{
-					text-shadow: 2px 2px 5px red, 2px 2px black; 
-					background-color: transparent;
-					text-decoration:none;
-					}
-			a:active
-					{
-					color:yellow;
-					background-color: transparent;
-					text-decoration: none;
-					}
-			ul
-					{
-					list-style-type: none;		
-					}
- 
+			a
+				{
+					color:black
+				}
+		.nav ul 
+				{
+          		  list-style-type: none;
+           		 padding: 0;
+				}
+        .nav ul a
+				{
+           		 text-decoration: none;
+				}
+        	
        		.flex-container
       		 	  	{
             			display: -webkit-flex;
