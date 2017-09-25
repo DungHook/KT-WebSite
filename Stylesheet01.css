@@ -18,11 +18,11 @@
 			h4
 					{
 						text-shadow: 1px 1px 3px black;
-						text-align:left
+						text-align:left;
 					}
 			a
 				{
-					color:black
+					color:black;
 				}
 		.nav ul 
 				{
