@@ -1,6 +1,6 @@
 		body
  				{
- 					backgrond-color:brown;
+ 				 
  					background: url(TanPaper.gif); 					
  				}
  			h1
@@ -89,8 +89,8 @@
             	
             footer 
             	{
-                	-webkit-flex-order:4;
-                	order:4;
+                	-webkit-flex-order:3;
+                	order:3;
             	}
         }
  				
