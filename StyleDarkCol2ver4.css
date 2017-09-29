@@ -106,6 +106,7 @@
 	 				/* mouse over link */
     	  a:hover, a:active 
       {
+
             text-decoration: none;			
             float: left;
             text-align: center;
