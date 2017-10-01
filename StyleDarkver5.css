@@ -79,48 +79,23 @@
 	    a:link, a:visited  
             {
             text-decoration: none;			
-                float: left;
-                text-align: center;
-                padding: 14px 36px;
-                display: block;          
+            float: left;
+            text-align: center;
+            padding: 14px 36px;
+            display: block;          
             white-space: nowrap; 
   			} 
-					/* visited link */
-/*	  a:visited  
-			{
-			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			font-size: 30px;
- 			color:black;
- 			text-shadow: 2px 2px 5px brown, 2px 2px 5px black;
-			text-decoration: none;
-			padding-left:5%;
-			}
-				*/	
+ 
 	 				/* mouse over link */
     	a:hover, a:active 
             {
-
             text-decoration: none;			
             float: left;
             text-align: center;
-           padding: 12px 36px;
+            padding: 12px 36px;
             display: block;          
-            white-space: nowrap;            
-
-  			}		
-					
-					/* selected link */
-/*      a:active 
-			{
-			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			font-size: 30px;
- 			color:black;
- 			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
-			text-decoration: none;
-			padding-left:5%;
-			}
-*/
- 
+            white-space: nowrap;
+            } 
 		ul 
 			{
 				    list-style-type: none;
@@ -135,26 +110,16 @@
             flex-flow: row wrap;
             
             }
-        /*        .flex-container > * 
-       		{
-           	padding: 0px;
-            -webkit-flex: 1 100%;
-           	flex: 1 100%;
-                    
-      		}
-    */  .main
+ 
+        .main
             {
             color: #b3b3b3;
-            flex:100%;
-         
-        }
+            flex:100%;         
+            }
 
         .flex-item-1 
             {
             flex: 100%;
-             
-          /**/
-      /*  */
             } 
 
         .flex-item-2
