@@ -1,14 +1,63 @@
- .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
-}
-
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
+    .wholepage-container
+        {
+ 
+       
+        display:flex;
+        flex:1 100%;        
+    }
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: black;
+        background-image: url(UODark.gif);
+        background-repeat: no-repeat;
+        margin: 0;
+        }    
+    .flex-container 
+        {
+        background-color: lightgrey;
+        display: -webkit-flex;
+        display: flex;
+    
+    }
+    .flex-item 
+        {
+ 
+ 
+        width:50%;
+        text-align:center;
+    }
+    		h1
+ 			{
+ 			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			 color:rgba(8, 8, 7, 0.75); 
+ 			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+ 			font-size: 85px; 
+ 			}
+ 		h2
+ 			{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#716a6a;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+            opacity: .75;
+ 			}
+  		h3
+ 			{
+ 	 	    font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:black;
+            text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+	        font-size: 30px;
+ 			padding-left: 5%;
+  			
+              				 
+ 			}
+ 		h4
+ 			{
+ 			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			/*color:#b3b3b3;*/
+            text-shadow:1px 1px 2px #663300;
+            font-size: 20px;
+ 			padding-left: 10%;
+ 			
+ 			
+ 			}
