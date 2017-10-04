@@ -1,63 +1,120 @@
-    .wholepage-container
+body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: black;
+      
+      background-repeat: no-repeat;
+      margin: 0;
+                }  
+.flex-container {
+      display: -webkit-flex;
+      display: flex;  
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      text-align: center;
+      background-image: url(UODark.gif);
+        }
+
+.flex-container > * {
+      padding: 15px;
+      -webkit-flex: 1 100%;
+      flex: 1 100%;
+        }
+
+.article {
+      text-align: left;
+        }
+
+header 
         {
- 
-       
-        display:flex;
-        flex:1 100%;        
+      background: black;
+      color:white;
+
+        }
+footer {background:;color:#a0a0a0;}
+.nav {background:;}
+
+.nav ul {
+      list-style-type: none;
+      padding: 0;
+        }
+.nav ul a {
+      text-decoration: none;
+        }
+
+     @media all and (min-width: 768px)
+   {
+.nav
+     {
+        text-align:left;
+        -webkit-flex: 1 auto;
+        flex:1 auto;
+        -webkit-order:2;
+        order:2;
+
     }
-    body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: black;
-        background-image: url(UODark.gif);
-        background-repeat: no-repeat;
-        margin: 0;
-        }    
-    .flex-container 
-        {
-        background-color: lightgrey;
-        display: -webkit-flex;
-        display: flex;
+.article
+     {  
+        -webkit-flex:5 0px;
+        flex:5 0px;
+        -webkit-order:1;
+        order:1;
+
+    }
+ footer
+     {
+        -webkit-order:3;
+        order:3;
+
+    }
+  }   
+  
+
     
-    }
-    .flex-item 
-        {
- 
- 
-        width:50%;
-        text-align:center;
-    }
-    		h1
- 			{
- 			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			 color:rgba(8, 8, 7, 0.75); 
- 			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
- 			font-size: 85px; 
- 			}
- 		h2
- 			{
-            font-family: "Gabriola", Segoe Print, Times New Roman;
-            color:#716a6a;  
-            text-shadow: 2px 2px 5px red;
- 			font-size: 30px;
-            opacity: .75;
- 			}
-  		h3
- 			{
- 	 	    font-family: "Gabriola", Segoe Print, Times New Roman;
-            color:black;
-            text-shadow: 2px 2px 5px red, 2px 2px 5px black;
-	        font-size: 30px;
- 			padding-left: 5%;
+    	        h1
+ 			        {
+ 			        font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			        color:#0e0e0e; 
+ 			        text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+ 			        font-size: 85px;
+            
+ 			        }
+ 		        h2
+ 			        {
+                    font-family: "Gabriola", Segoe Print, Times New Roman;
+                    color:#655454;  
+                    text-shadow: 2px 2px 5px red;
+ 			        font-size: 30px;
+             
+ 			        }
+  		        h3
+ 			        {
+ 	 	            font-family: "Gabriola", Segoe Print, Times New Roman;
+                    color:#a0a0a0;
+                    text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+	                font-size: 30px;
+ 			        padding-left: 5%;
   			
               				 
- 			}
- 		h4
- 			{
- 			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			/*color:#b3b3b3;*/
-            text-shadow:1px 1px 2px #663300;
-            font-size: 20px;
- 			padding-left: 10%;
+ 			        }
+ 		        h4
+ 			        {
+ 			        font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			        /*color:#b3b3b3;*/
+                    text-shadow:1px 1px 2px #663300;
+                    font-size: 20px;
+ 			        padding-left: 10%;
  			
  			
- 			}
+ 			        }
+                 p1
+                 {
+                    color:#0e0e0e;
+                 }
+                 p2
+                 {
+                    color:#655454;
+                 }
+                 p3
+                 {
+                     color:#a0a0a0;
+                 }
