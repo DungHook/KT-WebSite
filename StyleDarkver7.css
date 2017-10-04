@@ -6,30 +6,23 @@
 		body
  			{
             background-color: black ;  				
- 			background-image: url(UODark.gif);
-            background-repeat: no-repeat;
- 			margin: 0;
-        
+ 			background-image: url(UODark.gif); 
+            background-repeat: no-repeat; 
+            margin:0;       
   			} 
   					/* Style the Header */
-  		.header
-  			{
-            background-color: black;
-  			background-image:url(UODark.gif);
 
+
+        .header {
+            background-color: black;
+            background-image: url(UODark.gif);
             background-size: 580px auto;
+            text-align: left;
             background-position: right center;
             background-repeat: no-repeat;
-            
-  			padding: 5px 25px;
-  			tex-align: left;
-  			} 
-          background img
-          {
-              max-width: 50%;
-              height: auto;
-               
-          }
+            padding: 5px 25px;
+   
+        }
          p
          {
               color: #b3b3b3;
@@ -38,9 +31,11 @@
 		h1
  			{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			/*color:#b3b3b3;*/
+ 			color:#1a0000; 
  			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
- 			font-size: 85px; 
+ 			font-size: 85px;
+ 
+              
  			}
  		h2
  			{
@@ -75,12 +70,8 @@
             {
             opacity: 0.5;
             overflow: hidden;
-            background-image:url(concrete356.gif); 
-
-         /*    margin: 10px;
-            display: inline-flex;
-           background:#ccb776 url(TanPaper.gif);*/
-}
+            background-image:url(concrete356.gif);
+            }
 
  					/* unvisited link */
 	  a:link, a:visited  
@@ -191,5 +182,9 @@
             }       
 } 	
    
+        @media all and (min-width:768)
+        {
+
+        }
 
  				
