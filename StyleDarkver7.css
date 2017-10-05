@@ -6,7 +6,7 @@
 		body
  			{
             background-color: black ;  				
- 			background-image: url(UODark.gif); 
+ 			background-image: url(images/UODark.gif); 
             background-repeat: no-repeat; 
             margin:0;       
   			} 
@@ -15,7 +15,7 @@
 
         .header {
             background-color: black;
-            background-image: url(UODark.gif);
+            background-image: url(images/UODark.gif);
             background-size: 580px auto;
             text-align: left;
             background-position: right center;
@@ -70,7 +70,7 @@
             {
             opacity: 0.5;
             overflow: hidden;
-            background-image:url(concrete356.gif);
+            background-image:url(images/concrete356.gif);
             }
 
  					/* unvisited link */
