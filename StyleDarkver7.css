@@ -20,62 +20,49 @@
             text-align: left;
             background-position: right center;
             background-repeat: no-repeat;
-            padding: 5px 25px;
-   
+            padding: 5px 25px;   
         }
          p
          {
               color: #b3b3b3;
               
          }					
-		h1
- 			{
+		h1{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
- 			color:#1a0000; 
+ 			/*color:#1a0000;*/ 
  			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
- 			font-size: 85px;
- 
-              
+ 			font-size: 85px;              
  			}
- 		h2
- 			{
+ 		h2{
             font-family: "Gabriola", Segoe Print, Times New Roman;
             color:#b3b3b3;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
 
  			}
-  		h3
- 			{
+  		h3{
  	 	    font-family: "Gabriola", Segoe Print, Times New Roman;
             color:black;
             text-shadow: 2px 2px 5px red, 2px 2px 5px black;
 	        font-size: 30px;
- 			padding-left: 5%;
-  			
-              				 
+ 			padding-left: 5%;              				 
  			}
- 		h4
- 			{
+ 		h4{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
  			/*color:#b3b3b3;*/
             text-shadow:1px 1px 2px #663300;
             font-size: 20px;
- 			padding-left: 10%;
- 			
- 			
+ 			padding-left: 10%; 			
  			}
          /* Style the top navigation bar */
-        .topnav
-            {
-            opacity: 0.5;
-            overflow: hidden;
+        .topnav{
+            opacity: 0.5;            
             background-image:url(images/concrete356.gif);
+            overflow: hidden;
             }
 
  					/* unvisited link */
-	  a:link, a:visited  
-      {
+	  a:link, a:visited{
             text-decoration: none;			
                 float: left;
                 text-align: center;
@@ -95,18 +82,14 @@
 			}
 				*/	
 	 				/* mouse over link */
-    	  a:hover, a:active 
-      {
-
+    	  a:hover, a:active{
             text-decoration: none;			
             float: left;
             text-align: center;
-           padding: 12px 36px;
+            padding: 12px 36px;
             display: block;          
-            white-space: nowrap;            
-
-  			}		
-					
+            white-space: nowrap;
+  			}					
 					/* selected link */
 /*      a:active 
 			{
@@ -118,13 +101,25 @@
 			padding-left:5%;
 			}
 */
- 
 		ul 
 			{
 				    list-style-type: none;
 		    margin: 0;
 			padding: 0;
 			}
+
+        /*Two column one main article one right side bar*/
+
+        .article{
+            text-align:left;
+            width:75%;
+            border:solid red;
+        }
+        .SideBar{
+            text-align:center;
+            width:25%;
+            border:solid white;
+        }
  /* //////Create "three equal columns that float" next to each other\\\\\ */
 
     .column
@@ -182,9 +177,4 @@
             }       
 } 	
    
-        @media all and (min-width:768)
-        {
-
-        }
-
- 				
+ 
