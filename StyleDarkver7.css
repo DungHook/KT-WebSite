@@ -1,0 +1,205 @@
+        *
+            {
+            box-sizing: border-box;
+            }
+
+		body
+ 			{
+            background-color: black ;  				
+ 			background-image: url(images/UODark.gif); 
+            background-repeat: no-repeat; 
+            margin:0;       
+  			} 
+  					/* Style the Header */
+
+
+        .header {
+            background-color: black;
+            background-image: url(images/UODark.gif);
+            background-size: 580px auto;
+            text-align: left;
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding: 5px 25px;   
+        }
+         p
+         {
+              color: #b3b3b3;
+              text-indent:25px;              
+         }	
+ 			
+		h1{
+ 			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			/*color:#1a0000;*/ 
+ 			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+ 			font-size: 85px;              
+ 			}
+ 		h2{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+
+ 			}
+  		h3{
+ 	 	    font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:black;
+            text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+	        font-size: 30px;
+ 			padding-left: 5%;              				 
+ 			}
+ 		h4{
+ 			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			/*color:#b3b3b3;*/
+            text-shadow:1px 1px 2px #663300;
+            font-size: 20px;
+ 			padding-left: 10%; 			
+ 			}
+         /* Style the top navigation bar */
+        .topnav{
+            opacity: 0.5;            
+            background-image:url(images/concrete356.gif);
+            overflow: hidden;
+            }
+
+ 					/* unvisited link */
+	  a:link, a:visited{
+            text-decoration: none;			
+                float: left;
+                text-align: center;
+                padding: 14px 36px;
+                display: block;          
+            white-space: nowrap; 
+  			} 
+					/* visited link */
+/*	  a:visited  
+			{
+			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			font-size: 30px;
+ 			color:black;
+ 			text-shadow: 2px 2px 5px brown, 2px 2px 5px black;
+			text-decoration: none;
+			padding-left:5%;
+			}
+				*/	
+	 				/* mouse over link */
+    	  a:hover, a:active{
+            text-decoration: none;			
+            float: left;
+            text-align: center;
+            padding: 12px 36px;
+            display: block;          
+            white-space: nowrap;
+  			}					
+					/* selected link */
+/*      a:active 
+			{
+			font-family: "Gabriola", Segoe Print, Times New Roman;
+ 			font-size: 30px;
+ 			color:black;
+ 			text-shadow: 2px 2px 5px red, 2px 2px 5px black;
+			text-decoration: none;
+			padding-left:5%;
+			}
+*/
+		ul 
+			{
+				    list-style-type: none;
+		    margin: 0;
+			padding: 0;
+			}
+
+        /*Two column one main article one right side bar*/
+        div.container {
+    display:flex;
+    width: 100%;
+    /*border: solid blue;*/
+}
+
+        .article{
+            text-align:left;
+            width:60%;                       
+            padding-left:25px;
+            padding-right:25px;
+            float:left;
+           /* border:solid red;*/
+        }
+        .SideBar{
+            text-align:center;
+            width:40%;            
+            float:right;
+            padding: 50px 5px;
+            /*border:solid white;*/
+        }
+ /* //////Create "three equal columns that float" next to each other\\\\\ */
+
+    .column
+            {
+       		/*background-image:url(concrete356.gif);*/
+            float: left;
+            padding: 10px;
+            }
+             /* Left and right column */
+    .column.LeftSide
+             {
+             width: 15%;
+            }
+
+            /* Middle column */
+    .column.middle 
+            {
+            width: 70%;
+            
+            }
+    .column.RightSide
+             {
+             width: 15%;
+            }
+           /* Clear floats after the columns */ 
+    .row:after
+            {
+        content: "";
+        display: table;
+        clear: both;
+            }
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      .footer
+            {
+            text-align: center;
+            width:100%;
+            } 
+    /* Responsive layout - makes the three columns stack
+         on top of each other instead of 
+        next to each other on smaller screens (600px wide or less) */
+@media (max-width: 600px)
+    {
+/*    .columnLeftSide, column.middle, column.RightSide 
+            {
+             width: 100%;
+            }
+*/
+    .header{
+
+    }
+    .topnav{
+              
+       }
+    .article{
+
+    }
+    .SideBar{
+
+    }
+
+
+    .footer{
+            text-align: center;
+            padding: 10px;
+            }       
+} 	
+   
+ 
