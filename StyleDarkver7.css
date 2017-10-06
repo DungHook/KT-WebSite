@@ -25,8 +25,9 @@
          p
          {
               color: #b3b3b3;
-              
-         }					
+              text-indent:25px;              
+         }	
+ 			
 		h1{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
  			/*color:#1a0000;*/ 
@@ -112,23 +113,23 @@
         div.container {
     display:flex;
     width: 100%;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
         .article{
             text-align:left;
-            width:60%;
-            border:solid red;           
-
+            width:60%;                       
+            padding-left:25px;
+            padding-right:25px;
             float:left;
-
+           /* border:solid red;*/
         }
         .SideBar{
             text-align:center;
-            width:40%;
-            border:solid white;
+            width:40%;            
             float:right;
-        
+            padding: 50px 5px;
+            /*border:solid white;*/
         }
  /* //////Create "three equal columns that float" next to each other\\\\\ */
 
