@@ -11,9 +11,7 @@
             margin:0;
             padding:0;       
   			} 
-  					/* Style the Header */
-
-
+  		/* Style the Header */
         .header {
             background-color: black;
             background-image: url(images/UODark.gif);
@@ -22,6 +20,32 @@
             background-position: right center;
             background-repeat: no-repeat;
             padding: 5px 25px;   
+        }
+         /* Style the top navigation bar */
+        .topnav{
+            opacity: 0.5; 
+             overflow: hidden;          
+            /*background-image:url(images/concrete356.gif);*/            
+         }
+         div.container {
+    display:flex;
+    width: 100%;
+    /*border: solid blue;*/
+}
+        .article{
+            text-align:left;
+            width:60%;                       
+            padding-left:25px;
+            padding-right:40px;
+            float:left;
+           /* border:solid red;*/
+        }
+        div.SideBar{
+            text-align:center;
+            width:40%;            
+            float:right;
+            padding: 50px 5px;
+            border:solid white; 
         }
         div.fixed {
     position: fixed;
@@ -68,21 +92,7 @@
          b:hover {
              color:#f12f2f;
          }
-    .animation {
-        border-style: solid;
-        border-color: red;
-        background-image: url(/images/TanPaper.gif);
-        background-size: 100px 100px;
-    }
- 
-         /* Style the top navigation bar */
-        .topnav{
-            opacity: 0.5;            
-            /*background-image:url(images/concrete356.gif);*/
-            overflow: hidden;
-            }
-
- 					/* unvisited link */
+ 	/* unvisited link */
 	  a:link, a:visited{
             text-decoration: none;			
                 float: left;
@@ -91,7 +101,7 @@
                 display: block;          
             white-space: nowrap; 
   			} 
-					/* visited link */
+		/* visited link */
 /*	  a:visited  
 			{
 			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -102,7 +112,7 @@
 			padding-left:5%;
 			}
 				*/	
-	 				/* mouse over link */
+	 	/* mouse over link */
     	  a:hover, a:active{
             text-decoration: none;			
             float: left;
@@ -111,7 +121,7 @@
             display: block;          
             white-space: nowrap;
   			}					
-					/* selected link */
+			/* selected link */
 /*      a:active 
 			{
 			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -128,29 +138,14 @@
 		    margin: 0;
 			padding: 0;
 			}
-
+            .animation {
+        border-style: solid;
+        border-color: red;
+        background-image: url(/images/TanPaper.gif);
+        background-size: 100px 100px;
+    }
         /*Two column one main article one right side bar*/
-        div.container {
-    display:flex;
-    width: 100%;
-    /*border: solid blue;*/
-}
 
-        .article{
-            text-align:left;
-            width:60%;                       
-            padding-left:25px;
-            padding-right:40px;
-            float:left;
-           /* border:solid red;*/
-        }
-        div.SideBar{
-            text-align:center;
-            width:40%;            
-            float:right;
-            padding: 50px 5px;
-            border:solid white; 
-        }
         img.SideBar{
     position: fixed;
     bottom: 0;
