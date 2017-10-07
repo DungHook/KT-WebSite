@@ -45,14 +45,22 @@
             width:40%;            
             float:right;
             padding: 50px 5px;
-            border:solid white; 
+            border: ; 
         }
         div.fixed {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid #73AD21;
+    bottom: 25px;
+    right: 25px;
+    width: 400px;
+    height:400px;    
+    background-size:400px auto;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:none;
+   /* background-image:url(images/UODark.gif);
+    border: 3px solid #73AD21;*/
+    
+   
 }
          p
          {
@@ -89,9 +97,13 @@
             font-size: 20px;
  			padding-left: 10%; 			
  			}
-         b:hover {
-             color:#f12f2f;
+             span.MD{
+             color:azure;
+         } 
+         span.MD:hover {
+             color:#f12f2f;             
          }
+ 
  	/* unvisited link */
 	  a:link, a:visited{
             text-decoration: none;			
