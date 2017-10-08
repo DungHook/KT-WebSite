@@ -8,11 +8,10 @@
             background-color: black ;  				
  			background-image: url(images/UODark.gif); 
             background-repeat: no-repeat; 
-            margin:0;       
+            margin:0;
+            padding:0;       
   			} 
-  					/* Style the Header */
-
-
+  		/* Style the Header */
         .header {
             background-color: black;
             background-image: url(images/UODark.gif);
@@ -22,6 +21,47 @@
             background-repeat: no-repeat;
             padding: 5px 25px;   
         }
+         /* Style the top navigation bar */
+        .topnav{
+            opacity: 0.5; 
+             overflow: hidden;          
+            /*background-image:url(images/concrete356.gif);*/            
+         }
+         div.container {
+    display:flex;
+    width: 100%;
+    /*border: solid blue;*/
+}
+        .article{
+            text-align:left;
+            width:60%;                       
+            padding-left:25px;
+            padding-right:40px;
+            float:left;
+           /* border:solid red;*/
+        }
+        div.SideBar{
+            text-align:center;
+            width:40%;            
+            float:right;
+            padding: 50px 5px;
+            border: ; 
+        }
+        div.fixed {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 400px;
+    height:400px;    
+    background-size:400px auto;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:none;
+   /* background-image:url(images/UODark.gif);
+    border: 3px solid #73AD21;*/
+    
+   
+}
          p
          {
               color: #b3b3b3;
@@ -57,14 +97,14 @@
             font-size: 20px;
  			padding-left: 10%; 			
  			}
-         /* Style the top navigation bar */
-        .topnav{
-            opacity: 0.5;            
-            /*background-image:url(images/concrete356.gif);*/
-            overflow: hidden;
-            }
-
- 					/* unvisited link */
+             span.MD{
+             color:azure;
+         } 
+         span.MD:hover {
+             color:#f12f2f;             
+         }
+ 
+ 	/* unvisited link */
 	  a:link, a:visited{
             text-decoration: none;			
                 float: left;
@@ -73,7 +113,7 @@
                 display: block;          
             white-space: nowrap; 
   			} 
-					/* visited link */
+		/* visited link */
 /*	  a:visited  
 			{
 			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -84,7 +124,7 @@
 			padding-left:5%;
 			}
 				*/	
-	 				/* mouse over link */
+	 	/* mouse over link */
     	  a:hover, a:active{
             text-decoration: none;			
             float: left;
@@ -93,7 +133,7 @@
             display: block;          
             white-space: nowrap;
   			}					
-					/* selected link */
+			/* selected link */
 /*      a:active 
 			{
 			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -110,28 +150,24 @@
 		    margin: 0;
 			padding: 0;
 			}
-
+            .animation {
+        border-style: solid;
+        border-color: red;
+        background-image: url(/images/TanPaper.gif);
+        background-size: 100px 100px;
+    }
         /*Two column one main article one right side bar*/
-        div.container {
-    display:flex;
-    width: 100%;
-    /*border: solid blue;*/
-}
 
-        .article{
-            text-align:left;
-            width:60%;                       
-            padding-left:25px;
-            padding-right:40px;
-            float:left;
-           /* border:solid red;*/
+        img.SideBar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+
         }
-        .SideBar{
-            text-align:center;
-            width:40%;            
-            float:right;
-            padding: 50px 5px;
-            /*border:solid white;*/
+        b:hover + div.SideBar{
+            display:block;
         }
  /* //////Create "three equal columns that float" next to each other\\\\\ */
 
