@@ -47,6 +47,9 @@
             padding: 50px 5px;
             border: ; 
         }
+        img{
+            border-radius: 8px;
+        }
         div.fixed {
     position: fixed;
     bottom: 25px;
