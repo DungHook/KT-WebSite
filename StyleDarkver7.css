@@ -73,8 +73,8 @@
     display:none;   
 }
     div.fixedmid{
-        position:relative;
-        bottom:500px;
+        position:fixed;
+        bottom:100px;
         left:250px;
         right: 0px;
         max-width:30%;
@@ -84,26 +84,12 @@
         padding:10px;
         background-color:#405d27;
         background-image:url(images/TanPaper.gif);
+        border: 6px groove #8f6a1c;
         border-radius:10px;
         box-shadow:5px 5px 10px #8f6a1c;
         
     }
-    .dropdown{
-        position:relative;
-        display:inline-block;
-    }
-    .dropdown.content{
-        display:none;
-        position:absolute;
-        background-color:#f9f9f9;
-        min-width:160px;
-        box-shadow:2px 8px 16px 2px #b3b3b3;
-        padding:12px 16px;
-        z-index:2;
-    }
-    .dropdown:hover .dropdown-content{
-        display:block
-    }
+
 
 
             .column.LeftSide
@@ -175,16 +161,18 @@
  			font-size: 30px;
              padding:5px;
              background-image:url(images/TanPaper.gif);
+             border:6px groove #8f6a1c;
              border-radius:10px; 
          }
-                  span.list:hover  {
+         span.list:hover  {
             font-family: "Gabriola", Segoe Print, Times New Roman;
             color:#b3b3b3;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
-             padding:5px;
+             padding:6px;
              border: 6px groove #8f6a1c;
-             border-radius:10px; 
+             border-radius:10px;
+             box-shadow:2px 2px 6px #8f6a1c; 
          }
 
 
@@ -235,6 +223,24 @@
 			padding-left:5%;
 			}
 */
+/* not used  ==============  not used */
+    .dropdown{
+        position:relative;
+        display:inline-block;
+    }
+    .dropdown.content{
+        display:none;
+        position:absolute;
+        background-color:#f9f9f9;
+        min-width:160px;
+        box-shadow:2px 8px 16px 2px #b3b3b3;
+        padding:12px 16px;
+        z-index:2;
+    }
+    .dropdown:hover .dropdown-content{
+        display:block
+    }
+
 
         li{
 
