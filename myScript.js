@@ -7,10 +7,18 @@ function HideFixed() {
     document.getElementById('MDimage').style.display = 'none';
 }
 
-function ShowList() {
+function ShowSkill() {
     document.getElementById('skillcaps').style.display = 'block';
 }
 
-function HideList() {
+function HideSkill() {
     document.getElementById('skillcaps').style.display = 'none';
+}
+
+function ShowStat() {
+    document.getElementById('statcaps').style.display = 'block';
+}
+
+function HideStat() {
+    document.getElementById('statcaps').style.display = 'none';
 }
