@@ -73,13 +73,20 @@
     display:none;   
 }
     div.fixedmid{
-        position:fixed;
-        bottom:100px;
-        right:100px;
-        width:400px;
-        height:400px;
+        position:relative;
+        bottom:500px;
+        left:250px;
+        right: 0px;
+        max-width:30%;
         display:none;
-        text-align:center
+        text-align:center;
+        font-style:oblique;
+        padding:10px;
+        background-color:#405d27;
+        background-image:url(images/TanPaper.gif);
+        border-radius:10px;
+        box-shadow:5px 5px 10px #8f6a1c;
+        
     }
     .dropdown{
         position:relative;
@@ -102,7 +109,7 @@
             .column.LeftSide
              {
              width: 30%;
-              border:solid red; 
+              
             }
             /* Middle column */
     .column.middle 
@@ -116,6 +123,13 @@
               text-indent:25px;
              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
              font-size:20px;              
+         }
+         p.box{
+             color:#f6f3f3;
+             text-shadow:2px 2px 4px #405d27;
+             text-indent:10px;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+
          }	
          ul 
 			{
@@ -159,7 +173,20 @@
             color:#b3b3b3;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
+             padding:5px;
+             background-image:url(images/TanPaper.gif);
+             border-radius:10px; 
          }
+                  span.list:hover  {
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:5px;
+             border: 6px groove #8f6a1c;
+             border-radius:10px; 
+         }
+
 
              span.MD{
              color:azure;
