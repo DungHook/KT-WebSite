@@ -35,8 +35,10 @@
         }
          /* Style the top navigation bar */
         .topnav{
-            opacity: 0.5; 
-             overflow: hidden;          
+ 
+             overflow: hidden;  
+             padding-top:0px;
+             padding-bottom:0px;        
             /*background-image:url(images/concrete356.gif);*/            
          }
          div.container {
@@ -49,7 +51,7 @@
             text-align:left;
             width:60%;                       
             padding-left:25px;
-            padding-right:40px;
+            padding-left:40px;
             float:left;
            /* border:solid red;*/
         }
@@ -154,6 +156,26 @@
             font-size: 20px;
  			padding-left: 10%; 			
  			}
+           span.link{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:5px;
+             background-image:url(images/TanPaper.gif);
+             border:6px groove #8f6a1c;
+             border-radius:10px; 
+         }
+         span.list:hover  {
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:6px;
+             border: 6px groove #8f6a1c;
+             border-radius:10px;
+             box-shadow:2px 2px 6px #8f6a1c; 
+         }
          span.list{
             font-family: "Gabriola", Segoe Print, Times New Roman;
             color:#b3b3b3;  
