@@ -158,15 +158,16 @@
  			}
            span.link{
             font-family: "Gabriola", Segoe Print, Times New Roman;
-            color:#b3b3b3;  
+            color:black;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
-             padding:5px;
-             background-image:url(images/TanPaper.gif);
-             border:6px groove #8f6a1c;
+             padding:4px 10px;
+ 
+             background-image:url(images/concrete356.gif);
+             border:4px groove  #770d07;
              border-radius:10px; 
          }
-         span.list:hover  {
+         span.link:hover  {
             font-family: "Gabriola", Segoe Print, Times New Roman;
             color:#b3b3b3;  
             text-shadow: 2px 2px 5px red;
@@ -210,8 +211,8 @@
             text-decoration: none;			
                 float: left;
                 text-align: center;
-                padding: 14px 36px;
-                display: block;          
+                padding:0;
+                display:inline-flex;          
             white-space: nowrap; 
   			} 
 		/* visited link */
@@ -230,8 +231,8 @@
             text-decoration: none;			
             float: left;
             text-align: center;
-            padding: 12px 36px;
-            display: block;          
+            padding:0;
+            display:inline-flex;          
             white-space: nowrap;
   			}					
 			/* selected link */
