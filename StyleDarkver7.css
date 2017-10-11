@@ -21,6 +21,18 @@
             background-repeat: no-repeat;
             padding: 5px 25px;   
         }
+        .subheader{
+                  overflow: hidden;
+                  padding: 10px;
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;
+            text-align:center;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px; 
+             border: 6px groove red;
+             border-radius:10px;
+             margin-left:225px;
+        }
          /* Style the top navigation bar */
         .topnav{
             opacity: 0.5; 
@@ -30,7 +42,8 @@
          div.container {
     display:flex;
     width: 100%;
-    /*border: solid blue;*/
+    text-align:center;
+     /*border: solid blue; */
 }
         .article{
             text-align:left;
@@ -47,28 +60,72 @@
             padding: 50px 5px;
             border: ; 
         }
+        img{
+            border-radius: 10px;
+            box-shadow: 4px 4px 15px #b3b3b3;
+        }
         div.fixed {
     position: fixed;
     bottom: 25px;
     right: 25px;
     width: 400px;
-    height:400px;    
-    background-size:400px auto;
-    background-position:center;
-    background-repeat:no-repeat;
-    display:none;
-   /* background-image:url(images/UODark.gif);
-    border: 3px solid #73AD21;*/
-    
-   
+    height:400px;  
+    display:none;   
 }
+    div.fixedmid{
+        position:fixed;
+        bottom:100px;
+        left:250px;
+        right: 0px;
+        max-width:30%;
+        display:none;
+        text-align:center;
+        font-style:oblique;
+        padding:10px;
+        background-color:#405d27;
+        background-image:url(images/TanPaper.gif);
+        border: 6px groove #8f6a1c;
+        border-radius:10px;
+        box-shadow:5px 5px 10px #8f6a1c;
+        
+    }
+
+
+
+            .column.LeftSide
+             {
+             width: 30%;
+              
+            }
+            /* Middle column */
+    .column.middle 
+            {
+            width: 30%;
+          /*  border: solid green;*/
+            }
          p
          {
               color: #b3b3b3;
               text-indent:25px;
              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
              font-size:20px;              
+         }
+         p.box{
+             color:#f6f3f3;
+             text-shadow:2px 2px 4px #405d27;
+             text-indent:10px;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+
          }	
+         ul 
+			{
+		    list-style-type: georgian;
+            font-family:'Malgun Gothic' Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            font-size:20px;
+            color:#b3b3b3;
+		    margin: 0;
+			padding: 0;
+			}
  			
 		h1{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -97,6 +154,28 @@
             font-size: 20px;
  			padding-left: 10%; 			
  			}
+         span.list{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:5px;
+             background-image:url(images/TanPaper.gif);
+             border:6px groove #8f6a1c;
+             border-radius:10px; 
+         }
+         span.list:hover  {
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:6px;
+             border: 6px groove #8f6a1c;
+             border-radius:10px;
+             box-shadow:2px 2px 6px #8f6a1c; 
+         }
+
+
              span.MD{
              color:azure;
          } 
@@ -144,12 +223,28 @@
 			padding-left:5%;
 			}
 */
-		ul 
-			{
-				    list-style-type: none;
-		    margin: 0;
-			padding: 0;
-			}
+/* not used  ==============  not used */
+    .dropdown{
+        position:relative;
+        display:inline-block;
+    }
+    .dropdown.content{
+        display:none;
+        position:absolute;
+        background-color:#f9f9f9;
+        min-width:160px;
+        box-shadow:2px 8px 16px 2px #b3b3b3;
+        padding:12px 16px;
+        z-index:2;
+    }
+    .dropdown:hover .dropdown-content{
+        display:block
+    }
+
+
+        li{
+
+        }
             .animation {
         border-style: solid;
         border-color: red;
@@ -177,18 +272,8 @@
             float: left;
             padding: 10px;
             }
-             /* Left and right column */
-    .column.LeftSide
-             {
-             width: 15%;
-            }
+             /* Left column */
 
-            /* Middle column */
-    .column.middle 
-            {
-            width: 70%;
-            
-            }
     .column.RightSide
              {
              width: 15%;
