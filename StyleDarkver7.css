@@ -19,7 +19,11 @@
             text-align: left;
             background-position: right center;
             background-repeat: no-repeat;
-            padding: 5px 25px;   
+            padding: 5px 25px;
+            box-shadow: 8px 8px 15px black,4px 4px 10px #111010;   
+        /*   border: 8px inset #405d27;
+            border-radius:10px;
+        */
         }
         .subheader{
                   overflow: hidden;
@@ -38,10 +42,10 @@
  
              overflow: hidden;  
              padding-top:0px;
-             padding-bottom:0px;        
+             padding:10px;        
             /*background-image:url(images/concrete356.gif);*/            
          }
-         div.container {
+         div.container {    /*Main container under topnav and subheader*/
     display:flex;
     width: 100%;
     text-align:center;
@@ -51,9 +55,9 @@
             text-align:left;
             width:60%;                       
             padding-left:25px;
-            padding-left:40px;
+ 
             float:left;
-           /* border:solid red;*/
+            /*border:solid red;*/ 
         }
         div.SideBar{
             text-align:center;
@@ -62,11 +66,15 @@
             padding: 50px 5px;
             border: ; 
         }
+        .bufferbox{
+            margin: 25px;
+        }
+
         img{
             border-radius: 10px;
             box-shadow: 4px 4px 15px #b3b3b3;
         }
-        div.fixed {
+        div.fixed {         /* Container for images lower right of viewport */
     position: fixed;
     bottom: 25px;
     right: 25px;
@@ -74,7 +82,7 @@
     height:400px;  
     display:none;   
 }
-    div.fixedmid{
+    div.fixedmid{           /* container for showing details about titles in listings */
         position:fixed;
         bottom:100px;
         left:250px;
@@ -88,23 +96,9 @@
         background-image:url(images/TanPaper.gif);
         border: 6px groove #8f6a1c;
         border-radius:10px;
-        box-shadow:5px 5px 10px #8f6a1c;
-        
-    }
-
-
-
-            .column.LeftSide
-             {
-             width: 30%;
-              
-            }
-            /* Middle column */
-    .column.middle 
-            {
-            width: 30%;
-          /*  border: solid green;*/
-            }
+        box-shadow:5px 5px 10px #8f6a1c;        
+    } 
+ 
          p
          {
               color: #b3b3b3;
@@ -121,13 +115,21 @@
          }	
          ul 
 			{
-		    list-style-type: georgian;
+		    list-style-type: none;
             font-family:'Malgun Gothic' Cambria, Cochin, Georgia, Times, Times New Roman, serif;
             font-size:20px;
             color:#b3b3b3;
 		    margin: 0;
-			padding: 0;
+			padding:15px;
 			}
+         li{
+		    list-style-type: none;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            font-size:20px;
+            color:#b3b3b3;
+		    margin: 0;
+			padding:5px;
+         }
  			
 		h1{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -161,21 +163,24 @@
             color:black;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
-             padding:4px 10px;
- 
+             padding-left:10px;
+             padding-right:8px; 
              background-image:url(images/concrete356.gif);
              border:4px groove  #770d07;
-             border-radius:10px; 
+             border-radius:10px;
+             margin:0px 20px 0px; 
          }
          span.link:hover  {
             font-family: "Gabriola", Segoe Print, Times New Roman;
-            color:#b3b3b3;  
+            color:black;  
             text-shadow: 2px 2px 5px red;
  			font-size: 30px;
-             padding:6px;
-             border: 6px groove #8f6a1c;
+             padding-left:10px;
+             padding-right:8px;  
+             background-image:url(images/concrete356.gif);
+             border:4px groove  #770d07;
              border-radius:10px;
-             box-shadow:2px 2px 6px #8f6a1c; 
+             box-shadow: 2px 2px 6px #770d07; 
          }
          span.list{
             font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -246,7 +251,7 @@
 			padding-left:5%;
 			}
 */
-/* not used  ==============  not used */
+/* not used  ==============  not used */        /* not used  ==============  not used */
     .dropdown{
         position:relative;
         display:inline-block;
@@ -263,11 +268,7 @@
     .dropdown:hover .dropdown-content{
         display:block
     }
-
-
-        li{
-
-        }
+ 
             .animation {
         border-style: solid;
         border-color: red;
@@ -318,6 +319,14 @@
             text-align: center;
             width:100%;
             } 
+
+      /* ***** unused scripts ***** */               /* ***** unused scripts ***** */
+    .column.middle 
+            {
+            width: 30%;
+          /*  border: solid green;*/
+            }
+
     /* Responsive layout - makes the three columns stack
          on top of each other instead of 
         next to each other on smaller screens (600px wide or less) */
