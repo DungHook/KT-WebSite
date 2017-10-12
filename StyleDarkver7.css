@@ -54,16 +54,15 @@
         .article{
             text-align:left;
             width:60%;                       
-            padding-left:25px;
- 
+            padding-left:25px; 
             float:left;
             /*border:solid red;*/ 
         }
         div.SideBar{
-            text-align:center;
+            text-align:left;
             width:40%;            
             float:right;
-            padding: 50px 5px;
+            padding-right: 50px;
             border: ; 
         }
         .bufferbox{
@@ -96,7 +95,7 @@
         background-image:url(images/TanPaper.gif);
         border: 6px groove #8f6a1c;
         border-radius:10px;
-        box-shadow:5px 5px 10px #8f6a1c;        
+        box-shadow:5px 5px 10px #8f6a1c, 40px 40px 40px black;        
     } 
  
          p
@@ -111,24 +110,33 @@
              text-shadow:2px 2px 4px #405d27;
              text-indent:10px;
              font-family:"Gabriola", Segoe Print, Times New Roman;
-
-         }	
+         }
+         p.boxbig{
+             color:#f6f3f3;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+             font-size:30px;
+             text-shadow:4px 4px 8px #405d27;
+             text-indent:0px;
+		    margin: 0px;
+			padding:0px;
+             
+         }
          ul 
 			{
-		    list-style-type: none;
-            font-family:'Malgun Gothic' Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-            font-size:20px;
-            color:#b3b3b3;
+		    list-style-type: none; 
 		    margin: 0;
 			padding:15px;
+            line-height:1;
 			}
          li{
-		    list-style-type: none;
-            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-            font-size:20px;
-            color:#b3b3b3;
-		    margin: 0;
-			padding:5px;
+            list-style-type: none;
+             color:#f6f3f3;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+             font-size:25px;
+             text-shadow:4px 4px 8px #405d27;
+             text-indent:0px;           
+		    margin: 0px;
+			padding:0px;
          }
  			
 		h1{
