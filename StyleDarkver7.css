@@ -50,20 +50,37 @@
     width: 100%;
     text-align:center;
      /*border: solid blue; */
-}
-        .article{
+        }
+        .articlep1{
             text-align:left;
             width:60%;                       
             padding-left:25px; 
             float:left;
             /*border:solid red;*/ 
         }
-        div.SideBar{
+        .articlep2{
+            text-align:left;
+            width:55%;                       
+            padding-left:25px; 
+            float:left;
+            /*border:solid red;*/ 
+        }
+        div.SideBarp1{
             text-align:left;
             width:40%;            
             float:right;
             padding-right: 50px;
-            border: ; 
+            border:none ; 
+            background-color:none;
+        }
+        div.SideBarp2{
+            text-align:left;
+            width:45%;            
+            float:right;
+            padding-right: 45px;
+            padding-left:10px;
+            border:none ; 
+            background-color:none;
         }
         .bufferbox{
             margin: 25px;
@@ -87,7 +104,9 @@
         left:250px;
         right: 0px;
         max-width:30%;
+
         display:none;
+
         text-align:center;
         font-style:oblique;
         padding:10px;
@@ -126,14 +145,14 @@
 		    list-style-type: none; 
 		    margin: 0;
 			padding:15px;
-            line-height:1;
+            line-height:1.25;
 			}
          li{
             list-style-type: none;
              color:#f6f3f3;
              font-family:"Gabriola", Segoe Print, Times New Roman;
              font-size:25px;
-             text-shadow:4px 4px 8px #405d27;
+             text-shadow:2px 2px 4px #f6f3f3;
              text-indent:0px;           
 		    margin: 0px;
 			padding:0px;

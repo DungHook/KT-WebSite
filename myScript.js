@@ -5,7 +5,7 @@ function ShowFixed() {
 function HideFixed() {
     document.getElementById('MDimage').style.display = 'none';
 }
-//
+// 
 function ShowSkill() {
     document.getElementById('skillcaps').style.display = 'block';
 }
@@ -25,4 +25,11 @@ function showhouse() {
 }
 function hidehouse() {
     document.getElementById('house').style.display = 'none';
+}
+//
+function shownew() {
+    document.getElementById('skillcaps').style.display = 'block';
+}
+function hidenew() {
+    document.getElementById('newcc').style.display = 'none';
 }
