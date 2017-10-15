@@ -28,7 +28,7 @@ function hidehouse() {
 }
 //
 function shownew() {
-    document.getElementById('skillcaps').style.display = 'block';
+    document.getElementById('newcc').style.display = 'block';
 }
 function hidenew() {
     document.getElementById('newcc').style.display = 'none';

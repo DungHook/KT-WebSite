@@ -49,7 +49,7 @@
     display:flex;
     width: 100%;
     text-align:center;
-     /*border: solid blue; */
+     border: solid blue;  
         }
         .articlep1{
             text-align:left;
@@ -104,9 +104,23 @@
         left:250px;
         right: 0px;
         max-width:30%;
-
         display:none;
-
+        text-align:center;
+        font-style:oblique;
+        padding:10px;
+        background-color:#405d27;
+        background-image:url(images/TanPaper.gif);
+        border: 6px groove #8f6a1c;
+        border-radius:10px;
+        box-shadow:5px 5px 10px #8f6a1c, 40px 40px 40px black;        
+    }
+        div.fixedmid2{           /* container for showing details about titles in listings */
+        position:fixed;
+        bottom:70px;
+        left:250px;
+        right: 0px;
+        max-width:30%;
+        display:none;
         text-align:center;
         font-style:oblique;
         padding:10px;
