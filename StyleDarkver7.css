@@ -19,56 +19,171 @@
             text-align: left;
             background-position: right center;
             background-repeat: no-repeat;
-            padding: 5px 25px;   
+            padding: 5px 25px;
+            box-shadow: 8px 8px 15px black,4px 4px 10px #111010;   
+        /*   border: 8px inset #405d27;
+            border-radius:10px;
+        */
+        }
+        .subheader{
+            display:inline-block;
+                  overflow: hidden;
+                  padding: 10px;
+                  width:100%;
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;
+            text-align:center;  
+            text-shadow: 2px 2px 5px #8f6a1c;
+ 			font-size: 30px; 
+             border: 6px groove #8f6a1c;
+             border-radius:10px;
+             margin-left:0px;
         }
          /* Style the top navigation bar */
         .topnav{
-            opacity: 0.5; 
-             overflow: hidden;          
+ 
+             overflow: hidden;  
+             padding-top:0px;
+             padding:10px;        
             /*background-image:url(images/concrete356.gif);*/            
          }
-         div.container {
+         div.container {    /*Main container under topnav and subheader*/
     display:flex;
+    box-sizing: border-box;
     width: 100%;
-    /*border: solid blue;*/
-}
-        .article{
+    text-align:center;
+     border:none;  
+        }
+        .articlep1{
             text-align:left;
             width:60%;                       
-            padding-left:25px;
-            padding-right:40px;
+            padding-left:25px; 
             float:left;
-           /* border:solid red;*/
+            /*border:solid red;*/ 
         }
-        div.SideBar{
-            text-align:center;
+        .articlep2{
+            text-align:left;
+            width:55%;                       
+            padding-left:25px; 
+            float:left;
+            /*border:solid red;*/ 
+        }
+        div.SideBarp1{
+            text-align:left;
             width:40%;            
             float:right;
-            padding: 50px 5px;
-            border: ; 
+            padding-right: 50px;
+            border:none ; 
+            background-color:none;
         }
-        div.fixed {
+        div.SideBarp2{
+            text-align:left;
+            width:45%;            
+            float:right;
+            padding-right: 45px;
+            padding-left:10px;
+            border:none ; 
+            background-color:none;
+        }
+        .bufferbox{
+            margin: 25px;
+        }
+
+        img{
+            border-radius: 10px;
+            box-shadow: 4px 4px 15px #b3b3b3;
+        }
+        div.fixed {         /* Container for images lower right of viewport */
     position: fixed;
     bottom: 25px;
     right: 25px;
     width: 400px;
-    height:400px;    
-    background-size:400px auto;
-    background-position:center;
-    background-repeat:no-repeat;
-    display:none;
-   /* background-image:url(images/UODark.gif);
-    border: 3px solid #73AD21;*/
-    
-   
+    height:400px;  
+    display:none;   
 }
+    div.fixedmid{           /* container for showing details about titles in listings */
+        position:fixed;
+        bottom:100px;
+        left:250px;
+        right: 0px;
+        max-width:30%;
+        display:none;
+        text-align:center;
+        font-style:oblique;
+        padding:10px;
+        background-color:#405d27;
+        background-image:url(images/TanPaper.gif);
+        border: 6px groove #8f6a1c;
+        border-radius:10px;
+        box-shadow:5px 5px 10px #8f6a1c, 40px 40px 40px black;        
+    }
+        div.fixedmid2{           /* container for showing details about titles in listings */
+        position:fixed;
+        bottom:70px;
+        left:250px;
+        right: 0px;
+        max-width:30%;
+        display:none;
+        text-align:center;
+        font-style:oblique;
+        padding:10px;
+        background-color:#405d27;
+        background-image:url(images/TanPaper.gif);
+        border: 6px groove #8f6a1c;
+        border-radius:10px;
+        box-shadow:5px 5px 10px #8f6a1c, 40px 40px 40px black;        
+    } 
+        .gallery{
+            border:none;
+            border-radius:10px;
+            display:inline-block;
+            margin:10px; 
+            overflow: visible;
+            width:50%;
+
+        }
+        
+ 
          p
          {
               color: #b3b3b3;
               text-indent:25px;
              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
              font-size:20px;              
-         }	
+         }
+         p.box{
+             color:#f6f3f3;
+             text-shadow:2px 2px 4px #405d27;
+             text-indent:10px;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+         }
+         p.boxbig{
+             color:#f6f3f3;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+             font-size:30px;
+             text-shadow:4px 4px 8px #405d27;
+             text-indent:0px;
+		    margin: 0px;
+			padding:0px;
+             
+         }
+         ul 
+			{
+		    list-style-type: none; 
+		    margin: 0;
+			padding:15px;
+            line-height:1.25;
+			}
+         li{
+            list-style-type: none;
+             color:#f6f3f3;
+             font-family:"Gabriola", Segoe Print, Times New Roman;
+             font-size:25px;
+             text-shadow:2px 2px 4px #f6f3f3;
+             text-indent:0px;           
+		    margin: 0px;
+			padding:0px;
+         }
  			
 		h1{
  			font-family: "Gabriola", Segoe Print, Times New Roman;
@@ -97,6 +212,52 @@
             font-size: 20px;
  			padding-left: 10%; 			
  			}
+           span.link{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:black;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding-left:10px;
+             padding-right:8px; 
+             background-image:url(images/concrete356.gif);
+             border:4px groove  #770d07;
+             border-radius:10px;
+             margin:0px 20px 0px; 
+         }
+         span.link:hover  {
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:black;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding-left:10px;
+             padding-right:8px;  
+             background-image:url(images/concrete356.gif);
+             border:4px groove  #770d07;
+             border-radius:10px;
+             box-shadow: 2px 2px 6px #770d07; 
+         }
+         span.list{
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:5px;
+             background-image:url(images/TanPaper.gif);
+             border:6px groove #8f6a1c;
+             border-radius:10px; 
+         }
+         span.list:hover  {
+            font-family: "Gabriola", Segoe Print, Times New Roman;
+            color:#b3b3b3;  
+            text-shadow: 2px 2px 5px red;
+ 			font-size: 30px;
+             padding:6px;
+             border: 6px groove #8f6a1c;
+             border-radius:10px;
+             box-shadow:2px 2px 6px #8f6a1c; 
+         }
+
+
              span.MD{
              color:azure;
          } 
@@ -109,8 +270,8 @@
             text-decoration: none;			
                 float: left;
                 text-align: center;
-                padding: 14px 36px;
-                display: block;          
+                padding:0;
+                display:inline-flex;          
             white-space: nowrap; 
   			} 
 		/* visited link */
@@ -129,8 +290,8 @@
             text-decoration: none;			
             float: left;
             text-align: center;
-            padding: 12px 36px;
-            display: block;          
+            padding:0;
+            display:inline-flex;          
             white-space: nowrap;
   			}					
 			/* selected link */
@@ -144,12 +305,24 @@
 			padding-left:5%;
 			}
 */
-		ul 
-			{
-				    list-style-type: none;
-		    margin: 0;
-			padding: 0;
-			}
+/* not used  ==============  not used */        /* not used  ==============  not used */
+    .dropdown{
+        position:relative;
+        display:inline-block;
+    }
+    .dropdown.content{
+        display:none;
+        position:absolute;
+        background-color:#f9f9f9;
+        min-width:160px;
+        box-shadow:2px 8px 16px 2px #b3b3b3;
+        padding:12px 16px;
+        z-index:2;
+    }
+    .dropdown:hover .dropdown-content{
+        display:block
+    }
+ 
             .animation {
         border-style: solid;
         border-color: red;
@@ -177,18 +350,8 @@
             float: left;
             padding: 10px;
             }
-             /* Left and right column */
-    .column.LeftSide
-             {
-             width: 15%;
-            }
+             /* Left column */
 
-            /* Middle column */
-    .column.middle 
-            {
-            width: 70%;
-            
-            }
     .column.RightSide
              {
              width: 15%;
@@ -210,6 +373,14 @@
             text-align: center;
             width:100%;
             } 
+
+      /* ***** unused scripts ***** */               /* ***** unused scripts ***** */
+    .column.middle 
+            {
+            width: 30%;
+          /*  border: solid green;*/
+            }
+
     /* Responsive layout - makes the three columns stack
          on top of each other instead of 
         next to each other on smaller screens (600px wide or less) */
