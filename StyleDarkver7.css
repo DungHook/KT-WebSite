@@ -26,16 +26,18 @@
         */
         }
         .subheader{
+            display:inline-block;
                   overflow: hidden;
                   padding: 10px;
+                  width:100%;
             font-family: "Gabriola", Segoe Print, Times New Roman;
             color:#b3b3b3;
             text-align:center;  
-            text-shadow: 2px 2px 5px red;
+            text-shadow: 2px 2px 5px #8f6a1c;
  			font-size: 30px; 
-             border: 6px groove red;
+             border: 6px groove #8f6a1c;
              border-radius:10px;
-             margin-left:225px;
+             margin-left:0px;
         }
          /* Style the top navigation bar */
         .topnav{
@@ -47,9 +49,10 @@
          }
          div.container {    /*Main container under topnav and subheader*/
     display:flex;
+    box-sizing: border-box;
     width: 100%;
     text-align:center;
-     border: solid blue;  
+     border:none;  
         }
         .articlep1{
             text-align:left;
@@ -130,6 +133,16 @@
         border-radius:10px;
         box-shadow:5px 5px 10px #8f6a1c, 40px 40px 40px black;        
     } 
+        .gallery{
+            border:none;
+            border-radius:10px;
+            display:inline-block;
+            margin:10px; 
+            overflow: visible;
+            width:50%;
+
+        }
+        
  
          p
          {
